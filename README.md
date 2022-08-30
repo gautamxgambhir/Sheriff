@@ -2,7 +2,7 @@
 
 -----------------
 
-# Sheriff : An AI enaled program to detect car speed
+# Sheriff : An AI enabled program to detect car speed
 
 ## What is it?
 
