@@ -20,7 +20,8 @@ Here are just a few of the things that pandas does well:
  - Detect car speed using **speed=distance/time** formula.
  - You can detect car speed from any video file.
  - UI made with [PyQt5]("https://www.qt.io/").
- ` We know these features are not enough to make a change, but we are trying to improve **Sheriff**, and hopefully we will reach our goal soon`
+
+ ` We know these features are not enough to make a change, but we are trying to improve Sheriff, and hopefully we will reach our goal soon`
 
 ## Where to get it?
 
