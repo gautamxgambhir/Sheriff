@@ -19,7 +19,7 @@ Here are just a few of the things that pandas does well:
 
  - Detect car speed using **speed=distance/time** formula.
  - You can detect car speed from any video file.
- - UI made with [PyQt5]("https://www.qt.io/").
+ - UI made with [PyQt5](https://www.qt.io/).
 
  ` We know these features are not enough to make a change, but we are trying to improve Sheriff, and hopefully we will reach our goal soon`
 
@@ -32,10 +32,10 @@ https://github.com/Programming-Hero-1313/Sheriff
 
 ## Dependencies
 
-- [OpenCV - OpenCV is a library of programming functions mainly aimed at real-time computer vision]("https://opencv.org/")
+- [OpenCV - OpenCV is a library of programming functions mainly aimed at real-time computer vision](https://opencv.org/)
 - [NumPy - Adds support for large, multi-dimensional arrays, matrices and high-level mathematical functions to operate on these arrays](https://www.numpy.org)
-- [PyQt5 - Qt is the fastest and smartest way to produce industry-leading software that users love]("https://www.qt.io/") 
-- [dlib - A toolkit for making real world machine learning and data analysis applications]("http://dlib.net/")
+- [PyQt5 - Qt is the fastest and smartest way to produce industry-leading software that users love](https://www.qt.io/) 
+- [dlib - A toolkit for making real world machine learning and data analysis applications](http://dlib.net/)
 
 ## Installation
 
@@ -47,7 +47,7 @@ You can install the all requirements from requirements.txt by using pip.
 
     python scripts/main.py
 
-[Video Tutorial for Sheriff Usage]("https://streamable.com/29yprj")
+[Video Tutorial for Sheriff Usage](https://streamable.com/29yprj)
 
 **Enter the speed Limit**
 - Enter the *Speed Limit* in the input box you want to set
