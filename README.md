@@ -4,6 +4,10 @@
 
 # Sheriff : An AI enabled program to detect car speed
 
+![Python](https://img.shields.io/badge/python-3.9-blue)
+![Status](https://img.shields.io/badge/status-stable-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-red)
+
 ## What is it?
 
 Road accidents, A very common problem, but still nobody is using Al technology to solve it,
