@@ -19,7 +19,7 @@ you have to select the video file and then it will start doing the process.
 
 ## Main Features
 
-Here are just a few of the things that pandas does well:
+Here are just a few of the things that Sheriff does well:
 
  - Detect car speed using **speed=distance/time** formula.
  - You can detect car speed from any video file.
