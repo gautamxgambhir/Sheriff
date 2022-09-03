@@ -17,6 +17,7 @@ from tkinter import *
 import regex
 from PIL import Image, ImageTk
 
+colorama.init()
 os.system('cls')
 
 print(f"\n{Fore.CYAN}-------------------- Sheriff - Console --------------------{Fore.WHITE}")
