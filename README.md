@@ -4,7 +4,7 @@
 
 # Sheriff : An AI enabled program to detect car speed
 
-![Python](https://img.shields.io/badge/python-3.9-blue)
+![Python](https://img.shields.io/badge/python-3.10-blue)
 ![Status](https://img.shields.io/badge/status-stable-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-red)
 
