@@ -1,0 +1,17 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/sheriff/__init__.py
+src/sheriff/gui.py
+src/sheriff.egg-info/PKG-INFO
+src/sheriff.egg-info/SOURCES.txt
+src/sheriff.egg-info/dependency_links.txt
+src/sheriff.egg-info/top_level.txt
+src/sheriff/gui_data/data/HaarCascadeClassifier.xml
+src/sheriff/gui_data/res/bg.png
+src/sheriff/gui_data/res/logo.ico
+src/sheriff/gui_data/res/logo.png
+src/sheriff/gui_data/res/font/KeepCalm-Medium.ttf
+src/sheriff/gui_data/scripts/app.ui

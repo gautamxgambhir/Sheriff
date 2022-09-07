@@ -1,3 +1,20 @@
+Metadata-Version: 2.1
+Name: sheriff
+Version: 1.0
+Summary: An AI enabled program to detect car speed
+Home-page: https://github.com/Programming-Hero-1313/Sheriff
+Author: Gautam Gambhir
+Author-email: Gautam Gambhir <ggambhir1919@gmail.com>
+Project-URL: Homepage, https://github.com/Programming-Hero-1313/Sheriff
+Project-URL: Bug Tracker, https://github.com/Programming-Hero-1313/Sheriff/issues
+Keywords: speed detector,sheriff,ai,opencv
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
 # Sheriff : An AI enabled program to detect car speed
 
 ![Python](https://img.shields.io/badge/python-3.10-blue)

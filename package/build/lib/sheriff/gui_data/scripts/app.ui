@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>929</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <stylestrategy>PreferDefault</stylestrategy>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Sheriff - Home</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../res/logo.ico</normaloff>../res/logo.ico</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(33, 33, 33, 255), stop:0.548023 rgba(15, 15, 15, 255));</string>
+  </property>
+  <property name="animated">
+   <bool>false</bool>
+  </property>
+  <property name="tabShape">
+   <enum>QTabWidget::Rounded</enum>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>630</y>
+      <width>271</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Keep Calm</family>
+      <pointsize>26</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: rgb(255, 255, 255);
+	border-style: outset;
+	border-radius: 15px;
+	padding: 4px;
+}
+QPushButton:hover{
+	background-color: rgb(213, 213, 213);
+}</string>
+    </property>
+    <property name="text">
+     <string>START</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>50</y>
+      <width>581</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+	background-color: rgb(255, 255, 255);
+	border-radius: 15px;
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>0</y>
+       <width>151</width>
+       <height>151</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../res/logo.ico</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+     <property name="margin">
+      <number>17</number>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>20</y>
+       <width>521</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Keep Calm</family>
+       <pointsize>48</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:rgb(51, 51, 51);</string>
+     </property>
+     <property name="text">
+      <string>SHERIFF</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>430</y>
+      <width>721</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Keep Calm</family>
+      <pointsize>36</pointsize>
+     </font>
+    </property>
+    <property name="cursor" stdset="0">
+     <cursorShape>IBeamCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTextEdit{
+border-radius:15px;
+background-color:rgb(255,255,255);
+}
+QTextEdit:hover{
+background-color:rgb(213, 213, 213);
+}</string>
+    </property>
+    <property name="autoFormatting">
+     <set>QTextEdit::AutoAll</set>
+    </property>
+    <property name="placeholderText">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>280</y>
+      <width>591</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Keep Calm</family>
+      <pointsize>30</pointsize>
+     </font>
+    </property>
+    <property name="toolTipDuration">
+     <number>12</number>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgba(0,0,0,0);
+color:rgb(255,255,255);</string>
+    </property>
+    <property name="text">
+     <string>ENTER SPEED LIMIT</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

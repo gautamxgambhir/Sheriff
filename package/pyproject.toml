@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=65.3.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sheriff"
+version = "1.0"
+authors = [
+  { name="Gautam Gambhir", email="ggambhir1919@gmail.com" },
+]
+description = "An AI enabled program to detect car speed"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Programming-Hero-1313/Sheriff"
+"Bug Tracker" = "https://github.com/Programming-Hero-1313/Sheriff/issues"

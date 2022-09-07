@@ -27,6 +27,25 @@ Here are just a few of the things that Sheriff does well:
 
  ` We know these features are not enough to make a change, but we are trying to improve Sheriff, and hopefully we will reach our goal soon`
 
+## Package
+
+### Links
+ - [PyPi](https://pypi.org/project/sheriff/0.1/)
+ - [Source code](https://github.com/Programming-Hero-1313/Sheriff)
+
+### Installation
+
+    pip install sheriff
+
+### Usage
+
+` Run GUI `
+
+    from sheriff import gui
+
+    gui.run()
+
+
 ## Where to get it?
 
 The source code is currently hosted on GitHub at:
