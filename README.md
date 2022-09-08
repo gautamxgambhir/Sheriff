@@ -1,3 +1,9 @@
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Programming-Hero-1313/Sheriff/master/res/LogoImage.png"><br>
+</div>
+
+-----------------
+
 # Sheriff : An AI enabled program to detect car speed
 
 ![Python](https://img.shields.io/badge/python-3.10-blue)
