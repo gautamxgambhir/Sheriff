@@ -1,3 +1,6 @@
-__version__ = '1.0'
+__version__ = '1.1'
 
-__all__ = ['gui']
+def version():
+    return __version__
+
+__all__ = ['gui', 'version']

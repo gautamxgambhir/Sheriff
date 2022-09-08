@@ -1,7 +1,3 @@
-![Logo Image](https://i.ibb.co/Y0cjWHS/Logo-Image.png)
-
------------------
-
 # Sheriff : An AI enabled program to detect car speed
 
 ![Python](https://img.shields.io/badge/python-3.10-blue)
@@ -27,31 +23,34 @@ Here are just a few of the things that Sheriff does well:
 
  ` We know these features are not enough to make a change, but we are trying to improve Sheriff, and hopefully we will reach our goal soon`
 
-## Package
-
-### Links
- - [PyPi](https://pypi.org/project/sheriff/0.1/)
- - [Source code](https://github.com/Programming-Hero-1313/Sheriff)
-
-### Installation
-
-    pip install sheriff
-
-### Usage
-
-` Run GUI `
-
-    from sheriff import gui
-
-    gui.run()
-
-
 ## Where to get it?
 
 The source code is currently hosted on GitHub at:
 https://github.com/Programming-Hero-1313/Sheriff
 
-`Soon we will host our project on PyPi as an library too`
+## Package
+
+#### Links
+ - [PyPi](https://pypi.org/project/sheriff/0.1/)
+ - [Source code](https://github.com/Programming-Hero-1313/Sheriff)
+
+#### Package Installation
+    pip install sheriff
+
+#### Package Features
+ - Check version
+ - Run the GUI
+```
+from sheriff import *
+import sheriff
+
+# Check Sheriff version -
+print(sheriff.version())
+
+# Run the GUI -
+gui.run()
+```
+
 
 ## Dependencies
 

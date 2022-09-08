@@ -30,21 +30,26 @@ https://github.com/Programming-Hero-1313/Sheriff
 
 ## Package
 
-### Links
+#### Links
  - [PyPi](https://pypi.org/project/sheriff/0.1/)
  - [Source code](https://github.com/Programming-Hero-1313/Sheriff)
 
-### Installation
-
+#### Package Installation
     pip install sheriff
 
-### Usage
+#### Package Features
+ - Check version
+ - Run the GUI
+```
+from sheriff import *
+import sheriff
 
-` Run GUI `
+# Check Sheriff version -
+print(sheriff.version())
 
-    from sheriff import gui
-
-    gui.run()
+# Run the GUI -
+gui.run()
+```
 
 
 ## Dependencies
