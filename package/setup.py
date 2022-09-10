@@ -1,7 +1,8 @@
 import setuptools
 from setuptools import setup, find_packages
+from src.sheriff.__init__ import __version__
 
-VERSION = '1.1'
+VERSION = __version__
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
