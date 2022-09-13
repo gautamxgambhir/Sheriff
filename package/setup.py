@@ -1,6 +1,6 @@
 import setuptools
 from setuptools import setup, find_packages
-from src.sheriff.__init__ import __version__
+from sheriff import __version__
 
 VERSION = __version__
 
@@ -16,6 +16,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/Programming-Hero-1313/Sheriff",
+    install_requires=['colorama','dlib','numpy','opencv_python','Pillow','PyQt5','PySide6','regex'],
     project_urls={
         "Bug Tracker": "https://github.com/Programming-Hero-1313/Sheriff/issues",
     },

@@ -43,7 +43,7 @@ def run():
 
     print(f"\n{Fore.CYAN}-------------------- Sheriff - Console --------------------{Fore.WHITE}")
 
-    carCascade = cv2.CascadeClassifier('gui_data/data/HaarCascadeClassifier.xml')
+    carCascade = cv2.CascadeClassifier('.gui_data/data/HaarCascadeClassifier.xml')
 
     WIDTH = 1280 #WIDTH OF VIDEO FRAME
     HEIGHT = 720 #HEIGHT OF VIDEO FRAME
@@ -248,12 +248,11 @@ def run():
             root = Tk()
             root.geometry("1400x800")
             root.resizable(0,0)
-            # root.iconbitmap("gui_data/res/logo.ico")
-            # bg = PhotoImage(file = "gui_data/res/bg.png")
-            image1 = Image.open(".gui_data/res/bg.png")
-            test = ImageTk.PhotoImage(image1)
-            BackgroundLabel = Label( root, image = test,bd=0)
-            BackgroundLabel.image = test
+            root.iconbitmap(".gui_data/res/logo.ico")
+            bg = Image.open(".gui_data/res/bg.png")
+            bg = ImageTk.PhotoImage(bg)
+            BackgroundLabel = Label( root, image = bg,bd=0)
+            BackgroundLabel.image = bg
             BackgroundLabel.place(x = 0, y = 0)
             feedLabel = Label(root, bg="black")
             feedLabel.place(x=50,y=250)

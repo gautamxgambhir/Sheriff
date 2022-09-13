@@ -8,6 +8,7 @@ src/sheriff/gui.py
 src/sheriff.egg-info/PKG-INFO
 src/sheriff.egg-info/SOURCES.txt
 src/sheriff.egg-info/dependency_links.txt
+src/sheriff.egg-info/requires.txt
 src/sheriff.egg-info/top_level.txt
 src/sheriff/gui_data/data/HaarCascadeClassifier.xml
 src/sheriff/gui_data/res/bg.png

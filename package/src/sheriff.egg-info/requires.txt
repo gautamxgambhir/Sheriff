@@ -1,0 +1,8 @@
+colorama
+dlib
+numpy
+opencv_python
+Pillow
+PyQt5
+PySide6
+regex
