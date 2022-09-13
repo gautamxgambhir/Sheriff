@@ -60,6 +60,15 @@ print(sheriff.version())
 gui.run()
 ```
 
+### What's new in v1.4
+
+ - **Bug Fixed** : Dependencies not installing.
+
+### What's new in v1.3
+
+ - Changed `gui_data` directory name to `.gui_data`, so that it will be hidden when you run the `ls` or `list` command.
+ - Bug Fixed - Window icon not showing on open-cv feed window.
+
 ### What's new in v1.2
 
  - Fixed error - 
@@ -67,11 +76,6 @@ gui.run()
    Traceback (most recent call last): File "C:\python\lib\site-packages\sheriff\gui.py", line 147, in browsefiles trackMultipleObjects() File "C:\python\lib\site-packages\sheriff\gui.py", line 233, in __init__ root.iconbitmap("gui_data/res/logo.ico") File "C:\python\lib\tkinter\__init__.py", line 2109, in wm_iconbitmap return self.tk.call('wm', 'iconbitmap', self._w, bitmap) _tkinter.TclError: bitmap "gui_data/res/logo.ico" not defined
    ```
  - Bug Fixed - Images not showing on home screen like icon, logo.
-
-### What's new in v1.3
-
- - Changed `gui_data` directory name to `.gui_data`, so that it will be hidden when you run the `ls` or `list` command.
- - Bug Fixed - Window icon not showing on open-cv feed window.
 
 ## Dependencies
 
