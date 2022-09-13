@@ -43,6 +43,9 @@ https://github.com/Programming-Hero-1313/Sheriff
 #### Package Installation
     pip install sheriff
 
+### Upgrade
+    pip install sheriff --upgrade
+
 #### Package Features
  - Check version
  - Run the GUI
@@ -57,6 +60,18 @@ print(sheriff.version())
 gui.run()
 ```
 
+### What's new in v1.2
+
+ - Fixed error - 
+   ```
+   Traceback (most recent call last): File "C:\python\lib\site-packages\sheriff\gui.py", line 147, in browsefiles trackMultipleObjects() File "C:\python\lib\site-packages\sheriff\gui.py", line 233, in __init__ root.iconbitmap("gui_data/res/logo.ico") File "C:\python\lib\tkinter\__init__.py", line 2109, in wm_iconbitmap return self.tk.call('wm', 'iconbitmap', self._w, bitmap) _tkinter.TclError: bitmap "gui_data/res/logo.ico" not defined
+   ```
+ - Bug Fixed - Images not showing on home screen like icon, logo.
+
+### What's new in v1.3
+
+ - Changed `gui_data` directory name to `.gui_data`, so that it will be hidden when you run the `ls` or `list` command.
+ - Bug Fixed - Window icon not showing on open-cv feed window.
 
 ## Dependencies
 
@@ -70,6 +85,10 @@ gui.run()
 You can install the all requirements from requirements.txt by using pip.
 
     pip install -r requirements.txt
+
+Clone the repository
+
+    git clone https://github.com/Programming-Hero-1313/Sheriff.git
 
 ## Usage
 

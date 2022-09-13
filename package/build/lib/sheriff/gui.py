@@ -20,22 +20,22 @@ import urllib.request
 from PIL import Image, ImageTk
 
 def FetchData(url, filename):
-    os.makedirs('gui_data', exist_ok=True)
-    os.makedirs('gui_data/res', exist_ok=True)
-    os.makedirs('gui_data/scripts', exist_ok=True)
-    os.makedirs('gui_data/data', exist_ok=True)
-    os.makedirs('gui_data/res/font', exist_ok=True)
+    os.makedirs('.gui_data', exist_ok=True)
+    os.makedirs('.gui_data/res', exist_ok=True)
+    os.makedirs('.gui_data/scripts', exist_ok=True)
+    os.makedirs('.gui_data/data', exist_ok=True)
+    os.makedirs('.gui_data/res/font', exist_ok=True)
     try:
         filename, headers = urllib.request.urlretrieve(url, filename)
     except FileExistsError:
         return
     
-FetchData('https://raw.githubusercontent.com/Programming-Hero-1313/Sheriff/master/res/logo.png', 'gui_data/res/logo.png')
-FetchData('https://raw.githubusercontent.com/Programming-Hero-1313/Sheriff/master/res/logo.ico', 'gui_data/res/logo.ico')
-FetchData('https://raw.githubusercontent.com/Programming-Hero-1313/Sheriff/master/res/bg.png', 'gui_data/res/bg.png')
-FetchData('https://raw.githubusercontent.com/Programming-Hero-1313/Sheriff/master/res/font/KeepCalm-Medium.ttf', 'gui_data/res/font/KeepCalm-Medium.ttf')
-FetchData('https://raw.githubusercontent.com/Programming-Hero-1313/Sheriff/master/data/HaarCascadeClassifier.xml', 'gui_data/data/HaarCascadeClassifier.xml')
-FetchData('https://raw.githubusercontent.com/Programming-Hero-1313/Sheriff/master/scripts/app.ui', 'gui_data/scripts/app.ui')
+FetchData('https://raw.githubusercontent.com/Programming-Hero-1313/Sheriff/master/res/logo.png', '.gui_data/res/logo.png')
+FetchData('https://raw.githubusercontent.com/Programming-Hero-1313/Sheriff/master/res/logo.ico', '.gui_data/res/logo.ico')
+FetchData('https://raw.githubusercontent.com/Programming-Hero-1313/Sheriff/master/res/bg.png', '.gui_data/res/bg.png')
+FetchData('https://raw.githubusercontent.com/Programming-Hero-1313/Sheriff/master/res/font/KeepCalm-Medium.ttf', '.gui_data/res/font/KeepCalm-Medium.ttf')
+FetchData('https://raw.githubusercontent.com/Programming-Hero-1313/Sheriff/master/data/HaarCascadeClassifier.xml', '.gui_data/data/HaarCascadeClassifier.xml')
+FetchData('https://raw.githubusercontent.com/Programming-Hero-1313/Sheriff/master/scripts/app.ui', '.gui_data/scripts/app.ui')
 
 def run():
     colorama.init()
@@ -104,7 +104,7 @@ def run():
             self.label.setGeometry(QtCore.QRect(20, 0, 151, 151))
             self.label.setStyleSheet("")
             self.label.setText("")
-            self.label.setPixmap(QtGui.QPixmap("gui_data/res/logo.ico"))
+            self.label.setPixmap(QtGui.QPixmap(".gui_data/res/logo.ico"))
             self.label.setScaledContents(True)
             self.label.setObjectName("label")
             self.label.setMargin(17)
@@ -250,7 +250,7 @@ def run():
             root.resizable(0,0)
             # root.iconbitmap("gui_data/res/logo.ico")
             # bg = PhotoImage(file = "gui_data/res/bg.png")
-            image1 = Image.open("gui_data/res/bg.png")
+            image1 = Image.open(".gui_data/res/bg.png")
             test = ImageTk.PhotoImage(image1)
             BackgroundLabel = Label( root, image = test,bd=0)
             BackgroundLabel.image = test
