@@ -60,6 +60,11 @@ print(sheriff.version())
 gui.run()
 ```
 
+### What's new in v1.5
+
+ - Added change notes in package/README.md
+ - Added LICENSE.txt & README.md in MANIFEST.in 
+
 ### What's new in v1.4
 
  - **Bug Fixed** : Dependencies not installing.
