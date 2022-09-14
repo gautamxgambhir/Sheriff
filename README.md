@@ -60,6 +60,10 @@ print(sheriff.version())
 gui.run()
 ```
 
+### What's new in v1.6
+
+ - Fixed Issue [#3](https://github.com/Programming-Hero-1313/Sheriff/issues/3)
+
 ### What's new in v1.5
 
  - Added change notes in package/README.md

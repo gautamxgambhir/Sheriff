@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: sheriff
-Version: 1.5
+Version: 1.6
 Summary: An AI enabled program to detect car speed
 Home-page: https://github.com/Programming-Hero-1313/Sheriff
 Author: Gautam Gambhir
@@ -67,6 +67,10 @@ print(sheriff.version())
 # Run the GUI -
 gui.run()
 ```
+
+### What's new in v1.6
+
+ - Fixed Issue [#3](https://github.com/Programming-Hero-1313/Sheriff/issues/3)
 
 ### What's new in v1.5
 
