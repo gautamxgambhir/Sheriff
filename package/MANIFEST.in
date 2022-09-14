@@ -4,3 +4,5 @@ include src/sheriff/gui_data/res/logo.png
 include src/sheriff/gui_data/res/logo.ico
 include src/sheriff/gui_data/res/font/KeepCalm-Medium.ttf
 include src/sheriff/gui_data/scripts/app.ui
+include README.md
+include LICENSE.txt
