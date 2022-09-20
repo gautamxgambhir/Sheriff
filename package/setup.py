@@ -16,7 +16,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/Programming-Hero-1313/Sheriff",
-    install_requires=['colorama','cmake','dlib @ https://raw.githubusercontent.com/datamagic2020/Install-dlib/main/dlib-19.22.99-cp310-cp310-win_amd64.whl','numpy','opencv_python','Pillow','PyQt5','PySide6','regex'],
+    install_requires=['colorama','numpy','opencv-python','Pillow','PyQt5','PySide6','regex'],
     project_urls={
         "Bug Tracker": "https://github.com/Programming-Hero-1313/Sheriff/issues",
     },

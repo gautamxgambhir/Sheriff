@@ -71,6 +71,7 @@ gui.run()
 ### What's new in v1.6
 
  - Fixed Issue [#3](https://github.com/Programming-Hero-1313/Sheriff/issues/3)
+ - Dependencies, `dlib` and `cmake` removed from `install_requires` attribute in `setup.py`. Now the user have to manually install he dlib module, for that the user have to install `cmake gui` from [here](https://cmake.org/download/) and `cmake library` from [here](https://pypi.org/project/cmake/) or run `pip install cmake` in Powershell. and the user have to install dlib module by running `pip install dlib` in Powershell.
 
 ### What's new in v1.5
 

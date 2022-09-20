@@ -1,8 +1,6 @@
 colorama
-cmake
-dlib@ https://raw.githubusercontent.com/datamagic2020/Install-dlib/main/dlib-19.22.99-cp310-cp310-win_amd64.whl
 numpy
-opencv_python
+opencv-python
 Pillow
 PyQt5
 PySide6
